@@ -70,6 +70,7 @@ This project demonstrates several core CS, OOP, web development, and software en
 
 ## Architecture
 
+```
 src/
     main/
         java/
@@ -96,6 +97,7 @@ src/
                 previousStudentList.jsp
                 studentList.jsp
                 studentsWithFeeDue.jsp
+```
 
 - MVC pattern for separation of concerns
 - DAO pattern for database access and CRUD operations
