@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app xmlns="http://JAVA.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+    <display-name>TeacherAssistant Application</display-name>
+    <description>
+        This is a simple web application for assisting teachers to manage their students and batches
+    </description>
+
+    <servlet>
+        <servlet-name>TeacherAssistant</servlet-name>
+        <servlet-class>TeacherAssistant</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TeacherAssistant</servlet-name>
+        <url-pattern>/TeacherAssistant</url-pattern>
+    </servlet-mapping>
+
+</web-app>     
